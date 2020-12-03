@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DeepActivity">
+
+    <ImageView
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:paddingRight="40dp"
+        android:paddingLeft="40dp"
+        android:src="@drawable/deepdhar2"/>
+
+    <RelativeLayout
+        android:background="#ff8e71"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="50dp"
+            android:text="Deep Dhar"
+            android:textSize="30sp"
+            android:fontFamily="sans-serif-medium"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/description"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="40dp"
+            android:fontFamily="sans-serif"
+            android:text="Contact: 7001751010\nEmail: dhar2017.slg@gmail.com"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

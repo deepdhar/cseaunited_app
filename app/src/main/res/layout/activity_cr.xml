@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9ab3f5"
+    tools:context=".CrActivity">
+
+    <TextView
+        android:id="@+id/deep_dhar"
+        style="@style/CategoryStyle"
+        android:background="#bc6ff1"
+        android:text="Deep Dhar"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/alok_kumar"
+        style="@style/CategoryStyle"
+        android:background="#892cdc"
+        android:text="Alok Kumar"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/shreya"
+        style="@style/CategoryStyle"
+        android:background="#bc6ff1"
+        android:text="Shreya"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/falguni_sarkar"
+        style="@style/CategoryStyle"
+        android:background="#892cdc"
+        android:text="Falguni Sarkar"
+        android:textStyle="italic"/>
+
+</LinearLayout>
